@@ -3,7 +3,7 @@
 int main () {
 
  bool unique = true;
- bool alphabets[26];
+ bool alphabets[26];  //within same function, default bool value is false?
  std::string check;
 
  std::cout << "Enter your string (text only please!): ";
